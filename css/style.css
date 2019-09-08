@@ -14,8 +14,6 @@ html, body, .grid-container { height: 100%; margin: 0; }
 
 .grid-container {
     display: grid;
-    grid-template-columns: ;
-    grid-template-rows: ;
     grid-template-areas: "body";
 }
 
@@ -114,8 +112,11 @@ header a {
 }
 .bar-online {
     display: flex;
-    width: 15;
-    height: 15;
+    width: 15px;
+    height: 15px;
     background-color: coral;
+    -moz-box-shadow:0 0 20px coral;
+    -webkit-box-shadow:0 0 20px coral;
+    box-shadow:0 0 20px coral;
 
 }
